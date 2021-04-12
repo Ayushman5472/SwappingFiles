@@ -1,0 +1,11 @@
+def swapFiles():
+    Sample1 = open(input("Please Enter the Name of the file here:  "))
+    data_1 = Sample1.readlines()
+    Sample2 = open(input("Please Enter the Name of the second file here:   "))
+    data_2 = Sample2.readlines()
+    print(data_2)
+    File1 = open("Sample1",'w')
+    File1.write("data_2")
+    File2 = open("Sample2", "w")
+    File2.write("data_1")
+swapFiles()
